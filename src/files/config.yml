@@ -1,2 +1,6 @@
-settings:
+settings: #Please only change the String in the '. If you remove the '' then the System dont load.
+          #More help at the Support link who stand still in the Console.
+  cfgver: 0 #to reset the Config change the Number to any other Number that is higher when this!
+  version: 'DEVELOPMENT' #To change the version of the Plugin you can use the following versionstrings. PUBLIC, BETA, DEVELOPMENT, EXPERIMENTAL
+  debug: false #This is required if the Developer need more Informations about an Error if you report it. Enable it only if he request it or you will have more Informations.
   language: 'english'
