@@ -11,7 +11,10 @@ public class LanguageSystem {
         File file = new File("plugins/LobbySystem/Language", "lang_" + lang + ".yml");
         FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
 
-        Message.prefix = cfg.getString("message.prefix");
+        File file1 = new File("plugins/LobbySystem", "config.yml");
+        FileConfiguration cfg1 = YamlConfiguration.loadConfiguration(file1);
+
+        Message.prefix = cfg1.getString("message.prefix");
         Message.noperms = cfg.getString("message.noperms");
         Message.notonline = cfg.getString("message.notonline");
     }

@@ -1,0 +1,3 @@
+message:
+  noperms: '%prefix% You have no Permissions to execute this Command!'
+  notonline: '%prefix% The Player %playername% is not online!'

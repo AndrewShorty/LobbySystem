@@ -18,6 +18,7 @@ public class Main extends JavaPlugin {
         if(!file.exists()) {
             getLogger().info("config.yml not exist. Return to use default settings and import the Config from internal Database. Please do not restart or reload the Server in the next 30 Seconds!");
             FileSystem.insertData("files/config.yml", "plugins/LobbySystem/config.yml");
+            FileSystem.insertData("files/lang_en.yml", "plugins/LobbySystem/Language/lang_en.yml");
         }
 
         getLogger().info("[]⚌⚌⚌⚌⚌⚌⚌⚌[LobbySystem]⚌⚌⚌⚌⚌⚌⚌⚌[]");
